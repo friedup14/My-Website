@@ -9,7 +9,7 @@
         body {
             
             background-color: #fbfafc;
-            
+            flex-direction: column;
             display: flex;
             height: 100vh;
             margin: 0;
@@ -24,7 +24,7 @@
             top: 0;
             display: fixed;
             text-align: center;
-            position: fixed
+            
         }
         
         nav a {
@@ -41,6 +41,13 @@
             background-color: #3ab1b6;
         }
         
+        .pic {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 50px;
+            flex-grow: 1;
+        }
     </style>
 </head>
 <body>
@@ -54,7 +61,9 @@
         <a href="about.html">About</a> |
         <a href="contact.html">Contact Us</a>
         </nav>
-
-        
+        <div class="pic">
+            <img src="pic.jpg" alt="Test" width="1500" height="800">
+        </div>
+       
 </body>
 </html>
